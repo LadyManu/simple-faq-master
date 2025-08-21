@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="{https://your-demo-link.your-domain}">
+    <a href="https://ladymanu.github.io/simple-faq-master.github.io./">
       Demo
     </a>
     <span> | </span>
@@ -38,10 +38,7 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
-
-<!--
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+![screenshot](https:<img width="1346" height="691" alt="site" src="https://github.com/user-attachments/assets/eabae8d8-6a3f-4c06-bb01-d5d75ea1aea7" />
 
 - What have you learned/improved?
 - Your wisdom? :)
@@ -49,30 +46,23 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 ### What I learned
 
-<!-- Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge. -->
+<!-- I learned how to use responsive menus. My God, it was a lot of work to get them working on mobile, but I did it. I'm not 100% happy with the performance, but for my first time, I did pretty well. I also learned how to create a single line; it might seem simple, but for me, it was extremely complicated. And dealing with Git was a nightmare, but it worked. -->
 
 ### Useful resources
 
-<!--
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
--->
+<!--I only used help from devchallenge.io website.-->
 
 ### Built with
 
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
+<!-- - Semantic HTML5 markup
+- CSS -->
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+
+
 
 ## Features
 
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
+<!-- I didn't use any, I think... -->
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges-dashboard) challenge.
 
@@ -82,5 +72,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Author
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
+- Website ladymanu.github.io https://ladymanu.github.io/simple-faq-master.github.io./
+- GitHub @LadyManu https://github.com/LadyManu

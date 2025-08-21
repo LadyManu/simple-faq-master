@@ -1,3 +1,4 @@
+
 /*CSS STYLE SHEET FOR SIMPLE FAQ PAGE*/
 * {
     margin: 0;
@@ -11,41 +12,39 @@
 /* General styles */
 h1 {
     text-shadow: 2px 2px 5px gray;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     text-align: center;
 }
-h2{
-    font-size: 1.5rem;
+
+h2 {
+    font-size: 1.2rem;
     margin-bottom: 0.5rem;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     text-align: left;
-    text-justify: auto;
-    padding: 4rem 0rem 0rem 19.5rem;
+    padding: 1rem 0;  /* REMOVIDO padding fixo */
 }
 
 /* Undertexts styles */
 .under-title {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     line-height: 1.5;
     color: #333;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     font-family: 'Krona One', sans-serif;
     text-align: center;
-    text-justify: auto;
 }
 
 .under-questions {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     line-height: 1.5;
     color: #333;
     margin-bottom: 1rem;
     font-family: 'Krona One', sans-serif;
-    text-justify: auto;
-    padding: 1rem 0rem 0.5rem 19.5rem;
+    padding: 0.5rem 0; /* REMOVIDO padding fixo */
 }
 
 /* Header styles */
@@ -58,34 +57,23 @@ header {
 /* Main content styles */
 body {
     background-color: whitesmoke;
+    padding: 1rem;
 }
 
 /*Line styles */
 .line {
-  width: 45rem;        
+  width: 100%;        
+  max-width: 45rem;
   border: 0.1rem solid gainsboro;
-  margin-top: 60px;      /* espaço acima */
-  margin-bottom: 0;   /* espaço abaixo */
-  margin-left: auto;
-  margin-right: auto;   
+  margin: 2rem auto;   
 }
 
 /*List styles */
-ul {
-    list-style-type: disc;
-    padding-left: 2rem;
+ul, ol {
     margin-bottom: 1rem;
     font-family: 'Krona One', sans-serif;
-    padding: 0rem 0rem 0.5rem 20.8rem;
-    font-size:0.8rem ;
-}
-ol {
-    list-style-type: decimal;
-    padding-left: 2rem;
-    margin-bottom: 1rem;
-    font-family: 'Krona One', sans-serif;
-    padding: 0rem 0rem 0.5rem 20.8rem;
-    font-size:0.8rem ;
+    font-size: 0.9rem;
+    padding-left: 1.5rem; /* bem menor */
 }
 
 /* Footer styles */
@@ -105,32 +93,33 @@ footer a:hover {
   text-decoration: underline; 
 }
 
-/* Mobile devices */
+/* MOBILE */
 @media screen and (max-width: 480px) {
-  body {
-    font-size: 16px;
-    padding: 10px;
-  }
+  h1 { font-size: 1.6rem; }
+  h2 { font-size: 1rem; }
+  .under-title, .under-questions { font-size: 0.85rem; }
+  ul, ol { font-size: 0.85rem; padding-left: 1rem; }
 }
+
 /* Tablets */
-@media screen and (min-width: 481px) and (max-width: 768px) {
-  body {
-    font-size: 17px;
-    padding: 15px;
-  }
+@media screen and (max-width: 768px) {
+  body { padding: 2rem; }
+  h1 { font-size: 2.2rem; }
 }
 
 /* Laptops */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  body {
-    font-size: 18px;
-    padding: 20px;
-  }
+@media screen and (max-width: 1024px) {
+  body { padding: 2rem 4rem; }
 }
+
 /* Desktop */
 @media screen and (min-width: 1025px) {
-  body {
-    font-size: 19px;
-    padding: 25px;
+  .under-questions,
+  h2 {
+    padding-left: 24rem; 
+  }
+  /* ol, ul styles for desktop can be added here if needed */
+  ol,ul {
+    padding-left: 25rem;
   }
 }

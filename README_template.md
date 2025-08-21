@@ -46,29 +46,28 @@
 
 ### What I learned
 
-<!-- I learned how to use responsive menus. My God, it was a lot of work to get them working on mobile, but I did it. I'm not 100% happy with the performance, but for my first time, I did pretty well. I also learned how to create a single line; it might seem simple, but for me, it was extremely complicated. And dealing with Git was a nightmare, but it worked. -->
+I learned how to use responsive menus. My God, it was a lot of work to get them working on mobile, but I did it. I'm not 100% happy with the performance, but for my first time, I did pretty well. I also learned how to create a single line; it might seem simple, but for me, it was extremely complicated. And dealing with Git was a nightmare, but it worked. 
 
 ### Useful resources
 
-<!--I only used help from devchallenge.io website.-->
+I only used help from devchallenge.io website.
 
 ### Built with
 
-<!-- - Semantic HTML5 markup
-- CSS -->
+Semantic HTML5 markup
+CSS
+
 
 
 
 
 ## Features
 
-<!-- I didn't use any, I think... -->
+I didn't use any, I think... 
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges-dashboard) challenge.
 
 ## Acknowledgements
-
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
 ## Author
 
